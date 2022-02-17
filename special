@@ -1,0 +1,18 @@
+local list = {
+3127203934,
+}
+
+if list[player.UserId] then
+
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+	Title = "Special";
+	Text = "Hey M0DZ, You're special! -Sarah";
+	Duration = 30;
+})
+
+else
+print("You're Kinda special")
+end
+end)

@@ -1,9 +1,4 @@
-local list = {
-3127203934,
-}
-
-if list[player.UserId] then
-
+if game.Players.LocalPlayer.UserId == 3127203934 then
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
@@ -11,8 +6,4 @@ CoreGui:SetCore("SendNotification", {
 	Text = "Hey M0DZ, You're special! -Sarah";
 	Duration = 30;
 })
-
-else
-print("You're Kinda special")
 end
-end)
